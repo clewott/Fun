@@ -1,0 +1,19 @@
+header nav {
+ text-align: center;
+ font-size:2em;
+ list-style-type: none;
+}
+header nav a {
+ border-left: 1px solid grey;
+ padding-left: 10px;
+ text-decoration: none;
+}
+
+header nav a:hover {
+ color: red;
+}
+
+h1 {
+  font-size: 2em;
+  text-decoration: underline;
+}
