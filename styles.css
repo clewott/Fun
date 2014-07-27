@@ -120,15 +120,19 @@ nav ul a:hover > ul {
   border: 1px solid blue;
   border-radius: 100%;
 }
-.about-p p {
+.about-img span {
   border: 1px solid blue;
-  margin: 0px;
-  font-size: 1.25em;
-  display: table-cell;
-  padding: 40px;
+  margin-left: 10px;
+  font-size: 1em;
+  position: relative;
+  top: 40px;
 }
-.about-p p span {
-  font-size: 16px;
+.about-img p {
+  position: relative;
+  left: 10px;
+  overflow: auto;
+  width: 80%;
+
 }
 .social {
   clear: both;
